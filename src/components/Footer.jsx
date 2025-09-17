@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Social Links with Line */}
         <div className="relative flex justify-center gap-8 mb-8">
           {/* Horizontal Line */}
-          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-sky-200 -z-10 transform -translate-y-1/2"></div>
+          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gray-200 -z-10 transform -translate-y-1/2"></div>
           
           <a 
             href="https://github.com/SharanyaR1" 

@@ -57,15 +57,14 @@ export default function AboutMe() {
       <section className="mt-5">
         <p className="text-gray-700 leading-relaxed mb-2">
           I grew up in Bengaluru, and this city has been home for all my
-          21 years and honestly, it has my whole heart. Summers, though,
-          were reserved for my mum's hometown, a small town with a
+          21 years and honestly, it has my whole heart. Growing up I spent summers in my mum's hometown, a small town with a
           beautiful lake, lots of green, and my grandmother's endless
           supply of food and love. How I wish we had summer vacations
           again!
         </p>
         <p className="italic text-gray-600">
           “I wish there was a way to know you're in the good old days
-          before you've actually left them” — To all The Office fans
+          before you've actually left them” — To all 'The Office' fans
           out there.
         </p>
       </section>
@@ -87,7 +86,10 @@ export default function AboutMe() {
               Yoga & Walks
             </h5>
             <p className="mb-3 font-normal text-gray-700">
-              I start my day with an hour of Yoga. After months of "from Monday I'll start exercising", I finally stuck to it and I'm proud of being consistent. Yoga and meditation have changed my life I'm calmer, more aware, and stress doesn't shake me the way it used to. Walking is my second ritual, I aim for 10k steps daily. That's my time for mock Ted Talks, imaginary interviews as an entrepreneur or even a therapist, and long catch-ups with friends.
+              I start my day with an hour of yoga, and I’m proud of sticking to it consistently.
+              Yoga and meditation have made me calmer, more aware, and less stressed.
+              Walking is my second ritual. I aim for 10k steps daily.
+              It’s also my time to reflect and plan the day ahead.
             </p>
           </div>
         </div>
@@ -109,9 +111,7 @@ export default function AboutMe() {
               Cooking & Food
             </h5>
             <p className="mb-3 font-normal text-gray-700">
-              I love cooking, and if my sibling approves, it must be good!
-              Crunchy food is my weakness (yes, not the healthiest), but thanks to the air fryer, I’ve been experimenting with new recipes guilt-free! Since yoga became part of my life, I’ve grown more mindful about what I eat—though I don’t aim for perfection. Sometimes a little snack is worth more than the guilt of skipping it.
-
+              I love cooking and I know my way around Indian dishes, chicken biryani is my favorite! Cooking helps me unwind, and since starting yoga, I’ve become more mindful about what I eat, though I never stress over a little snack.
               So if you see me with a bag of chips… no judgment, please.
             </p>
           </div>
@@ -135,11 +135,12 @@ export default function AboutMe() {
               Watching shows
             </h5>
             <p className="mb-3 font-normal text-gray-700">
-              My favorite kind of genre when it comes to entertainment is sitcoms. They're just fun,
-              no cliffhangers which makes me binge-watch the entire show in a day or two. Some of my top picks are
+              My favorite genre of entertainment is sitcoms. Some of my top picks are 
               <em> Modern Family</em>, <em>The Office</em>, <em>Kim's Convenience</em>,
-              <em>The Big Bang Theory</em>, <em>Friends</em>, and <em>Schitt's Creek</em>.
+              <em> The Big Bang Theory</em>, <em>Friends</em>, and <em>Schitt's Creek</em>.
+
               On the regional side, I enjoy <em>Mahabharat</em> and <em>The Family Man</em>.
+
             </p>
 
           </div>
@@ -156,10 +157,7 @@ export default function AboutMe() {
             </h5>
             <p className="mb-4 font-normal text-gray-700">
               The inner child in me still gets super excited whenever I see crayons,
-              paints, brush pens, or any kind of stationery. Art instantly puts my soul
-              at ease, and I wish I could spend more time on it than I do now. On rough
-              days, you’ll probably find me surrounded by scattered stationery and good
-              music, experimenting with something I discovered on Pinterest.
+              paints, brush pens, or any kind of stationery. I wish I could spend more time on it than I do now. I also enjoy mural painting.
             </p>
 
             {/* Carousel */}
@@ -216,18 +214,18 @@ export default function AboutMe() {
 
       {/* Little Things */}
       <section className="mt-12 mb-16">
- <h2 className="underlined-heading text-2xl font-semibold mb-4 text-gray-700 inline-block relative">
-  <span className="relative">
-    Little Things That Make Me Happy
-  </span>
-</h2>
+        <h2 className="underlined-heading text-2xl font-semibold mb-4 text-gray-700 inline-block relative">
+          <span className="relative">
+            Little Things That Make Me Happy
+          </span>
+        </h2>
         <ul className="list-disc pl-6 text-gray-700 marker:text-blue-200 marker:text-xl space-y-2">
           <li>When a random little kid waves at me on the street</li>
           <li>That satisfying “ting” when my watch closes the exercise rings</li>
           <li>When my yoga instructor says “very good, Sharanya” after I nail a pose</li>
           <li>Hearing people say Bengaluru instead of Bangalore</li>
           {/* <li>RCB winning the IPL this year (not little — a HUGE thing)</li> */}
-          <li>Filter coffee and Elaichi tea</li>
+          <li>Filter coffee or Elaichi tea</li>
         </ul>
       </section>
 

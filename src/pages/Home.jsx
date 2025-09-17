@@ -26,14 +26,13 @@ export default function Home() {
 
                     <p className="mt-1 text-base leading-relaxed text-gray-700">
 
-                        I recently graduated with a Bachelor of Engineering in Computer Science and I’m currently a Software Developer Intern in Endpoint Engineering at Target Corporation.
-                        Like most of us in tech, I’ve honestly learned way more from YouTube and internships than from college lectures.
+                        I recently graduated with a Bachelor's of Engineering in Computer Science and I’m currently a Software Developer Intern at Target Corporation.
                     </p>
 
                     <p className="mt-4 text-base leading-relaxed text-gray-700">
 
-                        I’m a developer who loves building meaningful projects, usually the kind that is needed by me or someone around me and make life a little easier.
-                        That’s how most of my ideas are born. The best part? When someone else uses what I built and says <span className="italic">“Hey, this actually helps!” </span>that’s the moment that makes me love what I do.
+                        I am a developer who loves building meaningful projects, usually the kind that is needed by me or someone around me.
+                        The best part? When someone else uses what I built and says <span className="italic">“Hey, this actually helps!” </span>that’s the moment that makes me love what I do.
                     </p>
                 </main>
             </section>

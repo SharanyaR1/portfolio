@@ -35,14 +35,13 @@ export default function Books() {
         </h1> */}
 
         <p className="text-gray-600 mb-2 leading-relaxed">
-  I’ve loved reading since I was a kid — starting with{" "}
+  I’ve loved reading since I was a kid starting with{" "}
   <span className="italic">Tinkle</span>, <span className="italic">Dork Diaries</span>,{" "}
-  <span className="italic">Diary of a Wimpy Kid</span>, Roald Dahl, and almost every
-  Enid Blyton book I could get my hands on.  
-  As I grew up, I got into young adult stories full of teen drama, romance, and
-  feel-good vibes (I’m still a sucker for those in both books and movies).  
+  <span className="italic">Diary of a Wimpy Kid</span>, and almost every<span className="italic"> Roald Dahl</span> and <span className="italic">Enid Blyton </span> 
+  books I could get my hands on.  
+  As I grew up, I got into young adult stories.
   These days, I’m making the shift toward self-help and non-fiction. I don’t read
-  as much as I used to but I’m slowly finding my way back into it and enjoying the process.
+  as much as I used to but I’m slowly finding my way back into it and enjoying the process. Here are some of the books I like...
 </p>
 
 
@@ -60,11 +59,13 @@ export default function Books() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 mt-4">
             {adultBooks.map((book, i) => (
               <div key={i} className="flex flex-col items-center">
-                <img
-                  src={book.cover}
-                  alt={book.title}
-                  className="w-48 h-auto object-cover rounded-lg shadow-md"
-                />
+       <div className="w-full max-w-[12rem] aspect-[2/3] overflow-hidden rounded-lg shadow-md">
+        <img
+          src={book.cover}
+          alt={book.title}
+          className="w-full h-full object-cover"
+        />
+      </div>
                 <p className="mt-2 text-center text-gray-700">{book.title}</p>
               </div>
             ))}
@@ -75,7 +76,7 @@ export default function Books() {
         <div className="mt-10">
   <h2 className="underlined-heading text-3xl font-bold mb-4 text-gray-700 inline-block relative">
   <span className="relative">
-    Young Adult Favourites
+    Young Adult
   </span>
 </h2>
           {/* <p className="mb-4 text-gray-600 italic">

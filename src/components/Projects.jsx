@@ -63,7 +63,7 @@ const ProjectCarousel = () => {
 
         <h2 className="underlined-heading text-3xl font-semibold text-gray-700 inline-block relative mt-12">
   <span className="relative">
-    Things I Built
+    Things I've Built
   </span>
 </h2>
 
