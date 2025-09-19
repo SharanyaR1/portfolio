@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       <div className="text-gray-700 text-sm text-center">
-        <p>&copy; {new Date().getFullYear()} Sharanya Ramchandra. All rights reserved.</p>  
+        <p>&copy; {new Date().getFullYear()} Sharanya Ramchandra.</p>  
       </div>
     </footer>
   );

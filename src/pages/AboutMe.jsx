@@ -57,7 +57,7 @@ export default function AboutMe() {
       <section className="mt-5">
         <p className="text-gray-700 leading-relaxed mb-2">
           I grew up in Bengaluru, and this city has been home for all my
-          21 years and honestly, it has my whole heart. Growing up I spent summers in my mum's hometown, a small town with a
+          21 years and honestly, it has my whole heart. Growing up I spent summers in my mother's hometown, a small town with a
           beautiful lake, lots of green, and my grandmother's endless
           supply of food and love. How I wish we had summer vacations
           again!
