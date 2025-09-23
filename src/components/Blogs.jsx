@@ -11,7 +11,7 @@ export default function Blogs() {
 
       {/* Blog Card */}
       <a
-        href="https://blog-sharanya.hashnode.dev/behind-the-scenes-webpack-and-vite"
+        href="https://blog-sharanya.hashnode.dev/build-your-first-micronaut-application"
         target="_blank"
         rel="noopener noreferrer"
         className="block max-w-5xl relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition duration-300 mt-2"
