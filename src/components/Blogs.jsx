@@ -1,4 +1,4 @@
-import recentBlogImg from "../assets/RecentBlog.webp";
+import recentBlogImg from "../assets/RecentBlog.gif";
 
 export default function Blogs() {
   return (
@@ -29,10 +29,10 @@ export default function Blogs() {
         {/* Content on top of image */}
         <div className="absolute inset-0 flex flex-col justify-end p-6 text-white">
           <h3 className="text-2xl font-semibold mb-2">
-            Behind the Scenes: Webpack and Vite
+            How to Build Your First Micronaut Application 
           </h3>
           <p className="text-sm text-gray-200">
-            A deep dive into how bundlers like Webpack and Vite work under the hood.
+            Easy Guide for Beginners to Launch a Micronaut Project
           </p>
         </div>
       </a>
