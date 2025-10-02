@@ -12,7 +12,7 @@ const ProjectCarousel = () => {
     { id: 1, title: "Code Canvas", description: "A clean and colorful way to add notes to your code, think of it as your personal whiteboard for coding", bgImage: codeCanvasImg, link: "http://marketplace.visualstudio.com/items?itemName=SharanyaRamchandra.code-canvas" },
     { id: 2, title: "Ping You", description: "A Telegram bot that helps users track keywords in real time across multiple Telegram groups", bgImage: pingyouImg, link: "https://github.com/SharanyaR1/Ping-You-Bot" },
     { id: 3, title: "RPS Webiste", description: "A Bangalore-based school website to increase their online presence which I freelanced", bgImage: royalSchoolImg, link: "https://royalpublicschool.in/" },
-    { id: 4, title: "Checks Notifier", description: "A Slack bot that notifies you when any one of the Github checks fail during the run", bgImage: slackbotImg, link: "" },
+    { id: 4, title: "Checks Notifier", description: "A Slack bot that notifies you when any one of the Github checks fail during the run", bgImage: slackbotImg, link: "https://github.com/SharanyaR1/Checks-Notifier" },
   ];
 
   // Helper to get the width of one slide + gap (works for all breakpoints)
